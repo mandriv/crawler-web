@@ -1,6 +1,8 @@
 export const primary = '#0072ff';
-export const primaryLight = '#0072ff';
-export const white = '#FDFDFD';
+export const primaryLight = '#3DA5D4';
+export const primaryDark = '#09478B';
+export const dark = '#151722';
+export const white = '#F8F9F7';
 export const whiteSmoke = '#E3EDFF';
 
 export const hexToRgb = (hex) => {
