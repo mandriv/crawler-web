@@ -1,0 +1,39 @@
+html {
+  font-family: 'Encode Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+h2 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+h3 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+h4 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+h5 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+h6 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
