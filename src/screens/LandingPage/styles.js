@@ -1,6 +1,6 @@
 import glamorous from 'glamorous';
 
-import { primary, primaryLight, primaryDark, rgba, white, whiteSmoke } from '../../config/colours';
+import { primary, primaryDark, rgba, white, whiteSmoke } from '../../config/colours';
 
 export const VideoBackground = glamorous.video({
   width: '100%',
@@ -19,13 +19,11 @@ export const GradientOverlay = glamorous.div({
 
 export const Content = glamorous.div({
   width: '100%',
-  height: '100%',
-  display: 'flex',
-  justifyContent: 'center',
+  margin: '0 auto',
 });
 
 export const MessageContainer = glamorous.div({
-  marginTop: '7.5%',
+  paddingTop: '7.5%',
 });
 
 export const Message = glamorous.h2({
