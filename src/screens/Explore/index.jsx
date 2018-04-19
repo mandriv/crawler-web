@@ -1,21 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-export default class Explore extends React.PureComponent {
+import DefaultBackground from '../../shared/DefaultBackground';
+import Navbar from '../../shared/Navbar';
 
-  render() {
-    return (
-      <div>
-        Explore component
-      </div>
-    );
-  }
-}
+const Explore = () => (
+  <DefaultBackground>
+    <Navbar />
+  </DefaultBackground>
+);
 
-Explore.propTypes = {
-
-};
-
-Explore.defaultProps = {
-
-};
+export default Explore;
