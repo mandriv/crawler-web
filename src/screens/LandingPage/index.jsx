@@ -9,7 +9,7 @@ const LandingPage = () => (
     <GradientOverlay>
       <Navbar />
       <Content>
-        <MessageContainer>
+        <MessageContainer className="animated zoomIn">
           <Message>
             Have a total overview of your premises
           </Message>
