@@ -13,7 +13,7 @@ export default class VideoStream extends React.PureComponent {
 
   componentDidMount() {
     const { robotID } = this.props.match.params;
-    this.socket = io('http://rc.overseer.ml', {
+    this.socket = io('https://rc.overseer.ml', {
       transports: ['websocket'],
     });
     this.socket.emit('video-stream-join', robotID);
@@ -24,7 +24,7 @@ export default class VideoStream extends React.PureComponent {
   }
 
   update = async (filename) => {
-    const file = await fetch(`http://rc.overseer.ml/video-frame/${filename}`);
+    const file = await fetch(`https://rc.overseer.ml/video-frame/${filename}`);
     console.log(file);
   }
 
