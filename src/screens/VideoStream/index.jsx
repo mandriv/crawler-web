@@ -26,7 +26,7 @@ export default class VideoStream extends React.PureComponent {
   update = async (filename) => {
     const response = await fetch(`https://rc.overseer.ml/video-frame/${filename}`);
     console.log(response);
-    const imageBlob = await response.body.blob();
+    const imageBlob = await response.blob();
     console.log(imageBlob);
     const src = URL.createObjectURL(imageBlob);
     console.log(src);
